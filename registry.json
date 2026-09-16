@@ -1,4 +1,4 @@
-﻿{
+{
     "$schema":  "https://raw.githubusercontent.com/stacklok/toolhive-core/main/registry/types/data/upstream-registry.schema.json",
     "data":  {
                  "servers":  [
