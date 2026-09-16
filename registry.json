@@ -4,35 +4,6 @@
     "servers": [
       {
         "_meta": {
-          "io.modelcontextprotocol.registry/publisher-provided": {
-            "io.github.example": {
-              "https://mcp.example.com/my-mcp-server": {
-                "custom_metadata": {
-                  "price": "$10"
-                },
-                "status": "Active",
-                "tags": [
-                  "mcp",
-                  "toolhive"
-                ],
-                "tier": "Community"
-              }
-            }
-          }
-        },
-        "description": "An MCP server available through the ToolHive registry.",
-        "name": "io.github.example/my-mcp-server",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://mcp.example.com/my-mcp-server"
-          }
-        ],
-        "title": "My MCP Server",
-        "version": "1.0.0"
-      },
-      {
-        "_meta": {
           "registry_api": {
             "claims": {},
             "meta": {}
@@ -93,7 +64,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-16T13:16:03.133555+00:00"
+    "last_updated": "2026-09-16T13:18:45.893415+00:00"
   },
   "version": "1.0.0"
 }
