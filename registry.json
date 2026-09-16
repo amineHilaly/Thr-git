@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stacklok/toolhive-core/main/registry/types/data/upstream-registry.schema.json",
+  "version": "1.0.0",
+  "meta": {
+    "last_updated": "2026-09-14T00:00:00Z"
+  },
+  "data": {
+    "servers": [
+      {
+        "name": "io.github.example/my-mcp-server",
+        "title": "My MCP Server",
+        "description": "An MCP server available through the ToolHive registry.",
+        "version": "1.0.0",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.example.com/my-mcp-server"
+          }
+        ],
+        "_meta": {
+          "io.modelcontextprotocol.registry/publisher-provided": {
+            "io.github.example": {
+              "https://mcp.example.com/my-mcp-server": {
+                "status": "Active",
+                "tier": "Community",
+                "tags": [
+                  "mcp",
+                  "toolhive"
+                ],
+                "custom_metadata": {
+                  "price": "$10"
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "skills": []
+  }
+}
