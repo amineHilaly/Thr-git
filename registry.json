@@ -12,26 +12,6 @@
           }
         },
         "description": "Hello World MCP server but in spanish",
-        "name": "local/hola-world",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "http://hola.com/mcp"
-          }
-        ],
-        "title": "hola-world",
-        "version": "0.0.0"
-      },
-      {
-        "_meta": {
-          "registry_api": {
-            "claims": {},
-            "meta": {
-              "owner": "sergio hilaly"
-            }
-          }
-        },
-        "description": "Hello World MCP server but in spanish",
         "name": "salut-world/salut-world",
         "remotes": [
           {
@@ -46,7 +26,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T12:06:35.184527+00:00"
+    "last_updated": "2026-09-17T12:06:55.959377+00:00"
   },
   "version": "1.0.0"
 }
