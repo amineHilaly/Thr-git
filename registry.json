@@ -4,12 +4,12 @@
     "servers": [
       {
         "_meta": {
+          "io.modelcontextprotocol.registry/publisher-provided": {
+            "owner": "salut-world",
+            "price": "10 dollars"
+          },
           "registry_api": {
-            "claims": {},
-            "meta": {
-              "owner": "salut-world",
-              "price": "10 dollars"
-            }
+            "claims": {}
           }
         },
         "description": "Hello World MCP server",
@@ -47,7 +47,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T13:26:08.777777+00:00"
+    "last_updated": "2026-09-17T13:27:42.230451+00:00"
   },
   "version": "1.0.0"
 }
