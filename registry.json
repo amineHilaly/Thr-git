@@ -5,28 +5,6 @@
       {
         "_meta": {
           "io.modelcontextprotocol.registry/publisher-provided": {
-            "category": "utilities",
-            "owner": "platform-team",
-            "price": "free"
-          },
-          "registry_api": {
-            "claims": {}
-          }
-        },
-        "description": "Calculator MCP server",
-        "name": "calculator/calculator",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://calculator.example.com/mcp"
-          }
-        ],
-        "title": "calculator",
-        "version": "0.0.0"
-      },
-      {
-        "_meta": {
-          "io.modelcontextprotocol.registry/publisher-provided": {
             "io.github.aminehilaly/registry-api": {
               "owner": "salut-world",
               "price": "10 dollars"
@@ -45,26 +23,6 @@
           }
         ],
         "title": "hello-world",
-        "version": "0.0.0"
-      },
-      {
-        "_meta": {
-          "registry_api": {
-            "claims": {},
-            "meta": {
-              "price": "10 dollars"
-            }
-          }
-        },
-        "description": "Hello World MCP server but in spanish",
-        "name": "salut-world/salut-world",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://salut-world.fr/mcp"
-          }
-        ],
-        "title": "salut-world",
         "version": "0.0.0"
       }
     ],
