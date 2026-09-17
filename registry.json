@@ -5,6 +5,28 @@
       {
         "_meta": {
           "io.modelcontextprotocol.registry/publisher-provided": {
+            "category": "utilities",
+            "owner": "platform-team",
+            "price": "free"
+          },
+          "registry_api": {
+            "claims": {}
+          }
+        },
+        "description": "Calculator MCP server",
+        "name": "calculator/calculator",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://calculator.example.com/mcp"
+          }
+        ],
+        "title": "calculator",
+        "version": "0.0.0"
+      },
+      {
+        "_meta": {
+          "io.modelcontextprotocol.registry/publisher-provided": {
             "owner": "salut-world",
             "price": "10 dollars"
           },
@@ -47,7 +69,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T13:27:42.230451+00:00"
+    "last_updated": "2026-09-17T13:30:22.137639+00:00"
   },
   "version": "1.0.0"
 }
