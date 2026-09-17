@@ -27,8 +27,10 @@
       {
         "_meta": {
           "io.modelcontextprotocol.registry/publisher-provided": {
-            "owner": "salut-world",
-            "price": "10 dollars"
+            "io.github.aminehilaly/registry-api": {
+              "owner": "salut-world",
+              "price": "10 dollars"
+            }
           },
           "registry_api": {
             "claims": {}
@@ -69,7 +71,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T13:30:22.137639+00:00"
+    "last_updated": "2026-09-17T13:37:02.085910+00:00"
   },
   "version": "1.0.0"
 }
