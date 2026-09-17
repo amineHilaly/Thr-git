@@ -7,20 +7,21 @@
           "io.modelcontextprotocol.registry/publisher-provided": {
             "com.orange/custom_metadata": {
               "category": "utilities",
-              "precision": "decimal",
-              "version": "1.0"
+              "demonstrated": true,
+              "precision": "high",
+              "version": "2.0"
             }
           },
           "registry_api": {
             "claims": {}
           }
         },
-        "description": "Remote calculator MCP server for the registry demonstration.",
+        "description": "Updated remote calculator MCP server for the registry demonstration.",
         "name": "demo/calculator",
         "remotes": [
           {
             "type": "streamable-http",
-            "url": "https://calculator.example.com/mcp"
+            "url": "https://calculator-v2.example.com/mcp"
           }
         ],
         "title": "calculator",
@@ -79,7 +80,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T14:24:29.879314+00:00"
+    "last_updated": "2026-09-17T14:24:33.598629+00:00"
   },
   "version": "1.0.0"
 }
