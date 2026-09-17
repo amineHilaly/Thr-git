@@ -5,10 +5,10 @@
       {
         "_meta": {
           "io.modelcontextprotocol.registry/publisher-provided": {
-            "io.github.aminehilaly/registry-api": {
+            
               "owner": "salut-world",
               "price": "10 dollars"
-            }
+            
           },
           "registry_api": {
             "claims": {}
