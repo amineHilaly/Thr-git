@@ -1,37 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/stacklok/toolhive-core/main/registry/types/data/upstream-registry.schema.json",
   "data": {
-    "servers": [
-      {
-        "_meta": {
-          "io.modelcontextprotocol.registry/publisher-provided": {
-            "com.orange/custom_metadata": {
-              "category": "examples",
-              "demonstrated": true,
-              "language": "fr",
-              "version": "2.0"
-            }
-          },
-          "registry_api": {
-            "claims": {}
-          }
-        },
-        "description": "Updated remote greeting MCP server for the registry demonstration.",
-        "name": "demo/hello-world",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://hello-world-v2.example.com/mcp"
-          }
-        ],
-        "title": "hello-world",
-        "version": "0.0.0"
-      }
-    ],
+    "servers": [],
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T14:32:22.754018+00:00"
+    "last_updated": "2026-09-17T14:32:26.571032+00:00"
   },
   "version": "1.0.0"
 }
