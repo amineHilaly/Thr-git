@@ -5,10 +5,10 @@
       {
         "_meta": {
           "io.modelcontextprotocol.registry/publisher-provided": {
-            
+            "custom_meta_data":{
               "owner": "salut-world",
               "price": "10 dollars"
-            
+            }
           },
           "registry_api": {
             "claims": {}
