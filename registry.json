@@ -7,6 +7,27 @@
           "registry_api": {
             "claims": {},
             "meta": {
+              "owner": "salut-world",
+              "price": "10 dollars"
+            }
+          }
+        },
+        "description": "Hello World MCP server",
+        "name": "salut-world/hello-world",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://hello-world.example.com/mcp"
+          }
+        ],
+        "title": "hello-world",
+        "version": "0.0.0"
+      },
+      {
+        "_meta": {
+          "registry_api": {
+            "claims": {},
+            "meta": {
               "price": "10 dollars"
             }
           }
@@ -26,7 +47,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-17T13:25:10.822853+00:00"
+    "last_updated": "2026-09-17T13:26:08.777777+00:00"
   },
   "version": "1.0.0"
 }
