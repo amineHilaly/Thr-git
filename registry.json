@@ -6,24 +6,6 @@
         "_meta": {
           "registry_api": {
             "claims": {},
-            "meta": {}
-          }
-        },
-        "description": "Hello World MCP server",
-        "name": "local/hello-world",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "http://127.0.0.1:3000/mcp"
-          }
-        ],
-        "title": "hello-world",
-        "version": "0.0.0"
-      },
-      {
-        "_meta": {
-          "registry_api": {
-            "claims": {},
             "meta": {
               "owner": "sergio hilaly"
             }
@@ -64,7 +46,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-16T13:18:45.893415+00:00"
+    "last_updated": "2026-09-17T12:06:35.184527+00:00"
   },
   "version": "1.0.0"
 }
