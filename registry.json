@@ -51,36 +51,12 @@
         ],
         "title": "hello-world",
         "version": "0.0.0"
-      },
-      {
-        "_meta": {
-          "io.modelcontextprotocol.registry/publisher-provided": {
-            "com.orange/custom_metadata": {
-              "category": "weather",
-              "region": "global",
-              "version": "1.0"
-            }
-          },
-          "registry_api": {
-            "claims": {}
-          }
-        },
-        "description": "Remote weather forecast MCP server for the registry demonstration.",
-        "name": "demo/weather",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://weather.example.com/mcp"
-          }
-        ],
-        "title": "weather",
-        "version": "0.0.0"
       }
     ],
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-18T14:15:23.662975+00:00"
+    "last_updated": "2026-09-21T07:28:54.958070+00:00"
   },
   "version": "1.0.0"
 }
