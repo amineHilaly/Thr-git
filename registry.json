@@ -29,17 +29,18 @@
           "io.modelcontextprotocol.registry/publisher-provided": {
             "com.orange/custom_metadata": {
               "category": "examples",
-              "language": "en",
-              "version": "1.0"
+              "demonstrated": true,
+              "language": "fr",
+              "version": "2.0"
             }
           }
         },
-        "description": "Remote greeting MCP server for the registry demonstration.",
+        "description": "Updated remote greeting MCP server for the registry demonstration.",
         "name": "demo/hello-world",
         "remotes": [
           {
             "type": "streamable-http",
-            "url": "https://hello-world.example.com/mcp"
+            "url": "https://hello-world-v2.example.com/mcp"
           }
         ],
         "title": "hello-world",
@@ -71,7 +72,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-22T13:10:27.510287+00:00"
+    "last_updated": "2026-09-22T13:10:31.281222+00:00"
   },
   "version": "1.0.0"
 }
