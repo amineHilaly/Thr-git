@@ -3,7 +3,70 @@
   "data": {
     "servers": [
       {
-       
+        "_meta": {
+          "io.modelcontextprotocol.registry/publisher-provided": {
+            "com.orange/custom_metadata": {
+              "category": "utilities",
+              "demonstrated": true,
+              "precision": "high",
+              "version": "2.0"
+            }
+          }
+        },
+        "description": "Updated remote calculator MCP server for the registry demonstration.",
+        "name": "demo/calculator",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://calculator-v2.example.com/mcp"
+          }
+        ],
+        "title": "calculator",
+        "version": "0.0.0"
+      },
+      {
+        "_meta": {
+          "io.modelcontextprotocol.registry/publisher-provided": {
+            "com.orange/custom_metadata": {
+              "category": "examples",
+              "demonstrated": true,
+              "language": "fr",
+              "version": "2.0"
+            }
+          }
+        },
+        "description": "Updated remote greeting MCP server for the registry demonstration.",
+        "name": "demo/hello-world",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://hello-world-v2.example.com/mcp"
+          }
+        ],
+        "title": "hello-world",
+        "version": "0.0.0"
+      },
+      {
+        "_meta": {
+          "io.modelcontextprotocol.registry/publisher-provided": {
+            "com.orange/custom_metadata": {
+              "category": "weather",
+              "demonstrated": true,
+              "region": "europe",
+              "version": "2.0"
+            }
+          }
+        },
+        "description": "Updated remote weather forecast MCP server for the registry demonstration.",
+        "name": "demo/weather",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://weather-v2.example.com/mcp"
+          }
+        ],
+        "title": "weather",
+        "version": "0.0.0"
       }
     ],
     "skills": []
