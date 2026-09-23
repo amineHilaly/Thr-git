@@ -6,28 +6,6 @@
         "_meta": {
           "io.modelcontextprotocol.registry/publisher-provided": {
             "com.orange/custom_metadata": {
-              "category": "utilities",
-              "demonstrated": true,
-              "precision": "high",
-              "version": "2.0"
-            }
-          }
-        },
-        "description": "Updated remote calculator MCP server for the registry demonstration.",
-        "name": "demo/calculator",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://calculator-v2.example.com/mcp"
-          }
-        ],
-        "title": "calculator",
-        "version": "0.0.0"
-      },
-      {
-        "_meta": {
-          "io.modelcontextprotocol.registry/publisher-provided": {
-            "com.orange/custom_metadata": {
               "category": "examples",
               "demonstrated": true,
               "language": "fr",
@@ -50,7 +28,7 @@
     "skills": []
   },
   "meta": {
-    "last_updated": "2026-09-23T14:22:20.013226+00:00"
+    "last_updated": "2026-09-23T14:24:05.266710+00:00"
   },
   "version": "1.0.0"
 }
